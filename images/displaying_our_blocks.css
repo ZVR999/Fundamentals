@@ -1,8 +1,8 @@
 .container{
-    height: 700px;
-    width: 700px;
+    width: 725px;
     background-color: #d5d2ae;
-    padding: 40px;
+    padding: 20px;
+    margin: 20px;
 }
 
 .title{
@@ -20,14 +20,30 @@
     display: inline-block;
 }
 
+.wrapper{
+    margin: 40px;
+}
+
+.row{
+    margin: auto;
+    padding: auto;
+    display: inline-block;
+}
+
 .redpic{
     width:100px;
     height: 100px;
     display: inline-block;
+    background-color: #f36870;
+    padding: 10px;
+    border: 2px solid black;
 }
 
 .bluepic{
     width:100px;
     height: 100px;
     display: inline-block;
+    background-color: #82b4ee;
+    padding: 10px;
+    border: 2px solid black;
 }
